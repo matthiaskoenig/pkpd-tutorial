@@ -1,13 +1,22 @@
 # Tutorial model building
 This document provides a high level overview into resources and tools used to build physiological-based pharmacokinetics models in the
 
-## Data curation
-See the curation information in
+## 1. Data curation
+A first step for model building is data curation. The timecourse and pharmacokinetics data are used for model fitting (calibration) and for validation of model prediction.
+
+Typical simulations with the curated datasets are
+* dose-dependency of pharmacokinetic parameters
+* effect of application routes (oral vs intravenous)
+* apply the model to new questions, e.g., hepatic impairment / renal impairment.
+
+For the different conditions respective datasets are required.
+
+For details about the curation process see
 https://github.com/matthiaskoenig/pkdb_data/blob/develop/CURATION.md
 
-## Model building
+## 2. Model building (SBML)
 
-All models are encoded in Systems Biology Markup Language (**SBML**). Most materials related to SBML are available from the homepage http://sbml.org/Main_Page.
+All models are encoded in Systems Biology Markup Language (**SBML**). Information related to SBML is available from the SBML homepage (http://sbml.org/Main_Page) and the following introductionary publications:
 
 A high level overview is given in the following documents:
 
@@ -30,7 +39,21 @@ We create SBML models using the library
 https://github.com/matthiaskoenig/sbmlutils  
 https://sbmlutils.readthedocs.io/en/stable/  
 
-SBML models are simulated using `sbmlsim`
+### Model information
+The model creation code creates SBML files and SBML reports (HTML) which provide an overview over model content.
+The reports are very helpful for getting SBML identifiers and respective units.
+
+## 3. Model visualization
+The models can be visualized using `Cytoscape` and `cy3sbml`
+- Java 11 (openjdk)
+- Cytoscape >3.8.0 (https://cytoscape.org/)
+- cy3sbml (see https://github.com/matthiaskoenig/cy3sbml/ for installation instructions).
+
+
+## 4. Model simulation
+The created SBML models can be simulated with all simulators supporting SBML, e.g. COPASI (http://copasi.org) a GUI for simulation.
+
+We are simulating SBML models using `sbmlsim`
 https://github.com/matthiaskoenig/sbmlsim  
 
 It provides an abstraction layer around `roadrunner`
@@ -39,20 +62,9 @@ http://libroadrunner.org/
 
 publication in [./literature/libroadrunner.pdf](./literature/libroadrunner.pdf)
 
-## Model information
-The model creation code creates SBML files and SBML reports (HTML) which provide an overview over model content.
-The reports are very helpful for getting SBML identifiers and respective units.
 
-## Model visualization
-- Java 11 (openjdk)
-- Cytoscape >3.8.0 (https://cytoscape.org/)
-- cy3sbml
-- See https://github.com/matthiaskoenig/cy3sbml/ for installation instructions.
-- (apps -> ...)
 
-## Model building:
-- how to setup pycharm
-- how to install pkdb_models via pip
+
 
  
 
