@@ -6,13 +6,12 @@ This document provides a high level overview into resources and tools used to bu
 This tutorial files are available from `https://github.com/matthiaskoenig/pkdb_tutorial
 <https://github.com/matthiaskoenig/pkdb_tutorial>`_.
 
-Within this tutorial the resources and information will be provided to build a PK/PD for a given drug or substance. A good introduction to the basic concepts in physiologically based pharmacokinetic modeling in drug discovery and development can be found in :download:`Jones2013 </resources/introduction/Jones2013.pdf>`.
-
-
 .. image:: /resources/introduction/pbpk.png
    :height: 250
 
-Please see the following introductory talk giving an overview of basic concepts and the work in our group :download:`Physiological based pharmacokinetics models for analysis of liver function </resources/introduction/Koenig2020_pk-tutorial.pdf>`.
+Within this tutorial the resources and information will be provided to build a PK/PD for a given drug or substance. See the following introductory talk giving an overview of basic concepts and the work in our group :download:`Physiological based pharmacokinetics models for analysis of liver function </resources/introduction/Koenig2020_pk-tutorial.pdf>`.
+
+A good introduction to the basic concepts in physiologically based pharmacokinetic modeling in drug discovery and development can be found in :download:`Jones2013 </resources/introduction/Jones2013.pdf>`.
 
 
 Example projects
