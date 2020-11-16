@@ -12,9 +12,6 @@ This document provides a high level overview into resources and tools used to bu
 This tutorial files are available from `https://github.com/matthiaskoenig/pkdb_tutorial
 <https://github.com/matthiaskoenig/pkdb_tutorial>`_.
 
-.. image:: /resources/introduction/pbpk.png
-   :height: 150
-
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
