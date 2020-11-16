@@ -1,3 +1,4 @@
+[![Documentation Status](https://readthedocs.org/projects/pkpd-tutorial/badge/?version=latest)](https://pkpd-tutorial.readthedocs.io/en/latest/?badge=latest)
 # Tutorial on building a PK/PD model
 **Matthias König**
 
@@ -5,9 +6,6 @@ This document provides a high level overview into resources and tools used to bu
 
 The documentation is available from
 
-![https://readthedocs.org/projects/pkpd-tutorial/badge/?version=latest](https://pkpd-tutorial.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/pkpd-tutorial/badge/?version=latest)](https://pkpd-tutorial.readthedocs.io/en/latest/?badge=latest)
 
 &copy; 2017-2020 Matthias König; https://livermetabolism.com.
- 
-
-
