@@ -2,24 +2,26 @@ Git and github
 ==============
 Introduction to git
 -------------------
-All data and code is managed using a the **version control system** git with using github as a platform. A great introduction about the advantages of git and github in the bioinformatics can be found in :download:`Perez-Riverol2019 <./resources/git/Perez-Riverol2019.pdf>`.
+All data and code is managed using git as **version control system** in combination with GitHub. A good introduction about the advantages of Git and GitHub in bioinformatics is :download:`Perez-Riverol2019 <./resources/git/Perez-Riverol2019.pdf>`.
 
 .. image:: /resources/introduction/pbpk.png
    :height: 250
 
-Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. It allows multiple people to work cooperatively to work on a project. For a nice introduction read [getting started - about version control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) and `getting started - what is git <https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F>`_.
+Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. It allows multiple people to work cooperatively on a project. For an introduction read `getting started - about version control <https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control>`_ and `getting started - what is git <https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F>`_.
 
-Different people can work together on a single project by having local copies which are synchronized with the remote repository.
+Multiple people can work together on a single project by having local copies of a repository which are synchronized with the remote repository.
 
 .. image:: /resources/git/git_central_vs_remote_repositories.jpg
    :alt: Git and github
    :width: 400
 
-An overview over online resources can be found at `https://try.github.io/ <https://try.github.io/>`_. We recommend to do the following short online course giving an overview in git commands such as ``branch``, ``add``, ``commit``, ``merge``: Online course: `https://learngitbranching.js.org/ <https://learngitbranching.js.org/>`_
+Various online online resources provide an interactive introduction to the concepts of git, see for instance `https://try.github.io/ <https://try.github.io/>`_. We recommend to do the following short online course giving an overview of the core git commands such as ``branch``, ``add``, ``commit``, ``merge``.
+
+Online course: `https://learngitbranching.js.org/ <https://learngitbranching.js.org/>`_.
 
 Most important git commands
 ---------------------------
-Only a handful commands are used to work with git. A cheat sheet of the most important git commands can be found here: :download:`github-git-cheat-sheet <./resources/git/github-git-cheat-sheet.pdf>`
+The following cheat sheet provides an overview over the most important git commands: :download:`github-git-cheat-sheet <./resources/git/github-git-cheat-sheet.pdf>`.
  
 Initial setup
 ~~~~~~~~~~~~~
