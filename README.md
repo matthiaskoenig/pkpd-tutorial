@@ -1,19 +1,13 @@
 # Tutorial on building a PK/PD model
 **Matthias König**
 
-This document provides a high level overview into resources and tools used to build physiological-based pharmacokinetics/pharmacodynamcis (PK/PD) models in the [König group](https://livermetabolism.com).
+This document provides a high level overview into resources and tools used to build physiological-based pharmacokinetics/pharmacodynamics (PK/PD) models in the [König group](https://livermetabolism.com).
 
-## Introduction into Python
+The documentation is available from
 
-* [Introduction to Python](./python.md)
-* [Version control with git and GitHub](./git.md)
-* [Data curation](./data_curation.md)
-* [Model building](./model_building.md)
-* [Model visualization](./model_building.md)
-* [Parameter fitting](./parameter_fitting.md)
-* [Sensitivity analysis](./sensitivity_analysis.md)
+![https://readthedocs.org/projects/pkpd-tutorial/badge/?version=latest](https://pkpd-tutorial.readthedocs.io/en/latest/?badge=latest)
 
-&copy; 2017-2020 Jan Grzegorzewski & Matthias König; https://livermetabolism.com.
+&copy; 2017-2020 Matthias König; https://livermetabolism.com.
  
 
 
