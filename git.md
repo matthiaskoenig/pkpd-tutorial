@@ -1,4 +1,7 @@
 # Git and github
+
+![Git and github](./resources/git/git_github.png)
+
 All data and code is managed using a the **version control system** git with using github as a platform. A great introduction about the advantages of git and github in the bioinformatics can be found in [Perez-Riverol2019](resources/git/Perez-Riverol2019.pdf).  
 
 Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. It allows multiple people to work cooperatively to work on a project. For a nice introduction read [getting started - about version control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) and [getting started - what is git](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F).
@@ -9,48 +12,47 @@ An overview over online resources can be found at https://try.github.io/. We rec
 Only a handful commands are used to work with git. A cheat sheet of the most important git commands can be found here: [github-git-cheat-sheet](./resources/git/github-git-cheat-sheet.pdf)
  
 ### Initial setup
-After git installation you should first setup your environment via
+After git installation you should first setup your environment.
+
+Set the name you want attached to your commit transactions
 ```
 git config --global user.name "[name]" 
 ```
-Sets the name you want attached to your commit transactions
+Set the email you want attached to your commit transactions
 ```
 git config --global user.email "[email address]"
 ```
-Sets the email you want attached to your commit transactions
+Enable helpful colorization of command line output
 ```
 git config --global color.ui auto
 ```
-Enables helpful colorization of command line output
 
 ### Working with a repository
-First you have to clone the repository, i.e., getting a local copy
+![git and github workflow](./resources/git/git-and-github-workflow.png)
 
+
+To work with a project first you have to clone the repository, i.e., getting a local copy.
+
+Clone (download) a repository that already exists on GitHub, including all of the files, branches, and commits
 ```
 git clone [url]
 ```
-Clone (download) a repository that already exists on GitHub, including all of the files, branches, and commits
 
-Next make sure you work on the right branch, i.e., you have to switch the branch via 
-
+Next make sure you work on the right branch, i.e., you have to switch the branch. 
+Switch to the specified branch and updates the working directory
 ```
 git checkout [branch-name]
 ```
-Switches to the specified branch and updates the working directory
 
 After making changes to files, these have to be added and commited.
+Snapshot the file in preparation for versioning.
 ```
 git add [file]
 ```
-Snapshots the file in preparation for versioning.
-
+Record file snapshots permanently in version history
 ```
 git commit -m "[descriptive message]"
 ```
-Records file snapshots permanently in version history
-
-
-https://lab.github.com/githubtraining/introduction-to-github
 
 ## Github
 
@@ -72,6 +74,7 @@ And when you're done you'll be able to:
 - Make commits
 - Introduce changes with pull requests
 - Deploy a web page to GitHub pages 
+
 
 ## References
 * git book - Getting started - About version control, https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
