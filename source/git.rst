@@ -4,9 +4,6 @@ Introduction to git
 -------------------
 All data and code is managed using git as **version control system** in combination with GitHub. A good introduction about the advantages of Git and GitHub in bioinformatics is :download:`Perez-Riverol2019 <./resources/git/Perez-Riverol2019.pdf>`.
 
-.. image:: /resources/introduction/pbpk.png
-   :height: 250
-
 Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. It allows multiple people to work cooperatively on a project. For an introduction read `getting started - about version control <https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control>`_ and `getting started - what is git <https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F>`_.
 
 Multiple people can work together on a single project by having local copies of a repository which are synchronized with the remote repository.
