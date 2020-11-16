@@ -1,7 +1,6 @@
 # Tutorial on building a PK/PD model
 **Matthias König**
 
-<<<<<<< HEAD
 ## 1. Data curation
 A first step for model building is data curation. The timecourse and pharmacokinetics data are used for model fitting (calibration) and for validation of model prediction.
 
@@ -29,55 +28,6 @@ This document provides a high level overview into resources and tools used to bu
 * [Model visualization](./model_building.md)
 * [Parameter fitting](./parameter_fitting.md)
 * [Sensitivity analysis](./sensitivity_analysis.md)
-
->>>>>>> updating tutorial
-
-TODO: create a spinx document which auto-builds.
-
-
-
-
-
-
-<<<<<<< HEAD
-A detailed specification of SBML is provided here:
-
-> SBML specification document
-
-[./literature/sbml-level-3-version-2-release-2-core.pdf](./literature/sbml-level-3-version-2-release-2-core.pdf)
-
-We create SBML models using the library
-https://github.com/matthiaskoenig/sbmlutils  
-https://sbmlutils.readthedocs.io/en/stable/  
-
-### Model information
-The model creation code creates SBML files and SBML reports (HTML) which provide an overview over model content.
-The reports are very helpful for getting SBML identifiers and respective units.
-
-## 3. Model visualization
-The models can be visualized using `Cytoscape` and `cy3sbml`
-- Java 11 (openjdk)
-- Cytoscape >3.8.0 (https://cytoscape.org/)
-- cy3sbml (see https://github.com/matthiaskoenig/cy3sbml/ for installation instructions).
-
-
-## 4. Model simulation
-The created SBML models can be simulated with all simulators supporting SBML, e.g. COPASI (http://copasi.org) a GUI for simulation.
-
-We are simulating SBML models using `sbmlsim`
-https://github.com/matthiaskoenig/sbmlsim  
-
-It provides an abstraction layer around `roadrunner`
-https://github.com/sys-bio/roadrunner/
-http://libroadrunner.org/
-
-publication in [./literature/libroadrunner.pdf](./literature/libroadrunner.pdf)
-
-
-
-
-=======
->>>>>>> updating tutorial
 
 &copy; 2017-2020 Jan Grzegorzewski & Matthias König; https://livermetabolism.com.
  
