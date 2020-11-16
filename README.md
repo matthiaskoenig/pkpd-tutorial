@@ -1,6 +1,7 @@
-# Tutorial model building
-This document provides a high level overview into resources and tools used to build physiological-based pharmacokinetics models in the
+# Tutorial on building a PK/PD model
+**Matthias König**
 
+<<<<<<< HEAD
 ## 1. Data curation
 A first step for model building is data curation. The timecourse and pharmacokinetics data are used for model fitting (calibration) and for validation of model prediction.
 
@@ -17,18 +18,28 @@ https://github.com/matthiaskoenig/pkdb_data/blob/develop/CURATION.md
 ## 2. Model building (SBML)
 
 All models are encoded in Systems Biology Markup Language (**SBML**). Information related to SBML is available from the SBML homepage (http://sbml.org/Main_Page) and the following introductionary publications:
+=======
+This document provides a high level overview into resources and tools used to build physiological-based pharmacokinetics/pharmacodynamcis (PK/PD) models in the [König group](https://livermetabolism.com).
 
-A high level overview is given in the following documents:
+## Introduction into Python
+* [Introduction into Python](./python.md)
+* [Introduction into git and github](./git.md)
+* [Data curation](./data_curation.md)
+* [Model building](./model_building.md)
+* [Model visualization](./model_building.md)
+* [Parameter fitting](./parameter_fitting.md)
+* [Sensitivity analysis](./sensitivity_analysis.md)
 
-> Hucka, M., Finney, A., Sauro, H.M., Bolouri, H., Doyle, J.C., Kitano, H., Arkin, A.P., Bornstein, B.J., Bray, D., Cornish-Bowden, A. and Cuellar, A.A., 2003. The systems biology markup language (SBML): a medium for representation and exchange of biochemical network models. Bioinformatics, 19(4), pp.524-531.
+>>>>>>> updating tutorial
 
-[./literature/SBML_L2_paper.pdf](./literature/SBML_L2_paper.pdf)
-
-> SBML Level 3 publication
-
-[./literature/SBML_L3_paper_final_revisions.pdf](./literature/SBML_L3_paper_final_revisions.pdf)
+TODO: create a spinx document which auto-builds.
 
 
+
+
+
+
+<<<<<<< HEAD
 A detailed specification of SBML is provided here:
 
 > SBML specification document
@@ -65,7 +76,10 @@ publication in [./literature/libroadrunner.pdf](./literature/libroadrunner.pdf)
 
 
 
+=======
+>>>>>>> updating tutorial
 
+&copy; 2017-2020 Jan Grzegorzewski & Matthias König; https://livermetabolism.com.
  
 
 
